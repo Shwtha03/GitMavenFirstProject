@@ -1,49 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-26T00:52:43 SGT" name="Default suite" finished-at="2022-03-26T00:52:50 SGT" duration-ms="7186">
+  <suite started-at="2022-03-27T00:36:43 SGT" name="Default suite" finished-at="2022-03-27T00:36:46 SGT" duration-ms="2883">
     <groups>
     </groups>
-    <test started-at="2022-03-26T00:52:43 SGT" name="Default test" finished-at="2022-03-26T00:52:50 SGT" duration-ms="7186">
-      <class name="FirstProject.HomePageTest">
-        <test-method signature="browserNavigation()[pri:0, instance:FirstProject.HomePageTest@147ed70f]" started-at="2022-03-26T00:52:43 SGT" name="browserNavigation" finished-at="2022-03-26T00:52:46 SGT" duration-ms="3470" status="PASS">
+    <test started-at="2022-03-27T00:36:43 SGT" name="Default test" finished-at="2022-03-27T00:36:46 SGT" duration-ms="2883">
+      <class name="FirstProject.navigationBarTest">
+        <test-method signature="validateNavBar()[pri:0, instance:FirstProject.navigationBarTest@11a9e7c8]" started-at="2022-03-27T00:36:43 SGT" name="validateNavBar" finished-at="2022-03-27T00:36:46 SGT" duration-ms="2845" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserNavigation -->
-        <test-method signature="calldata(java.lang.String, java.lang.String)[pri:0, instance:FirstProject.HomePageTest@147ed70f]" started-at="2022-03-26T00:52:46 SGT" name="calldata" data-provider="getdata" finished-at="2022-03-26T00:52:49 SGT" duration-ms="2886" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shweth]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rao@1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- calldata -->
-        <test-method signature="calldata(java.lang.String, java.lang.String)[pri:0, instance:FirstProject.HomePageTest@147ed70f]" started-at="2022-03-26T00:52:49 SGT" name="calldata" data-provider="getdata" finished-at="2022-03-26T00:52:50 SGT" duration-ms="774" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pradeep]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[aby199@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- calldata -->
-      </class> <!-- FirstProject.HomePageTest -->
+        </test-method> <!-- validateNavBar -->
+      </class> <!-- FirstProject.navigationBarTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
