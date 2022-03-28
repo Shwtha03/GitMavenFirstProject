@@ -4,6 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="FirstProject.AppTest"/>
+      <class name="FirstProject.validateRediffFeaturesTest"/>
+      <class name="FirstProject.HomePageTest"/>
+      <class name="FirstProject.navigationBarTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
