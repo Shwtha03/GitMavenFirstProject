@@ -1,2 +1,4 @@
-FirstProject\base.class
+pageObject\RediffLoginPage.class
+pageObject\RediffHomePage.class
+resources\base.class
 FirstProject\App.class
