@@ -1,0 +1,7 @@
+17:29:54.896 [main] INFO  resources.base - closing the window
+17:29:56.703 [main] INFO  resources.base - driver is initialised
+17:30:00.753 [main] INFO  resources.base - Navigated to Sign-in page
+17:30:04.216 [main] INFO  resources.base - driver is initialised
+17:30:04.321 [main] INFO  resources.base - navigation bar is displayed without any break of code and the contents are:-
+17:34:39.223 [main] INFO  resources.base - driver is initialised
+17:34:41.112 [main] INFO  resources.base - driver is initialised

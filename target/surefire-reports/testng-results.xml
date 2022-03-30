@@ -1,17 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-23T14:15:55Z" name="Surefire suite" finished-at="2022-03-23T14:15:55Z" duration-ms="48">
+  <suite started-at="2022-03-30T17:34:36 SGT" name="Surefire suite" finished-at="2022-03-30T17:35:01 SGT" duration-ms="24914">
     <groups>
     </groups>
-    <test started-at="2022-03-23T14:15:55Z" name="Surefire test" finished-at="2022-03-23T14:15:55Z" duration-ms="48">
-      <class name="FirstProject.AppTest">
-        <test-method signature="shouldAnswerWithTrue()" started-at="2022-03-23T14:15:55Z" name="shouldAnswerWithTrue" finished-at="2022-03-23T14:15:55Z" duration-ms="6" status="PASS">
+    <test started-at="2022-03-30T17:34:36 SGT" name="Surefire test" finished-at="2022-03-30T17:35:01 SGT" duration-ms="24914">
+      <class name="FirstProject.HomePageTest">
+        <test-method is-config="true" signature="initialSteps()[pri:0, instance:FirstProject.HomePageTest@73d983ea]" started-at="2022-03-30T17:34:36 SGT" name="initialSteps" finished-at="2022-03-30T17:34:39 SGT" duration-ms="2283" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- FirstProject.AppTest -->
+        </test-method> <!-- initialSteps -->
+        <test-method signature="browserNavigation()[pri:0, instance:FirstProject.HomePageTest@73d983ea]" started-at="2022-03-30T17:34:43 SGT" name="browserNavigation" finished-at="2022-03-30T17:34:45 SGT" duration-ms="1910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserNavigation -->
+        <test-method signature="calldata(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:FirstProject.HomePageTest@73d983ea]" started-at="2022-03-30T17:34:45 SGT" name="calldata" data-provider="getdata" finished-at="2022-03-30T17:34:46 SGT" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shweth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rao@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test data-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calldata -->
+        <test-method signature="calldata(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:FirstProject.HomePageTest@73d983ea]" started-at="2022-03-30T17:34:46 SGT" name="calldata" data-provider="getdata" finished-at="2022-03-30T17:34:53 SGT" duration-ms="6838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pradeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aby199@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test data-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calldata -->
+        <test-method is-config="true" signature="close()[pri:0, instance:FirstProject.HomePageTest@73d983ea]" started-at="2022-03-30T17:34:53 SGT" name="close" finished-at="2022-03-30T17:34:53 SGT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- FirstProject.HomePageTest -->
+      <class name="FirstProject.navigationBarTest">
+        <test-method is-config="true" signature="initialSteps()[pri:0, instance:FirstProject.navigationBarTest@36a5cabc]" started-at="2022-03-30T17:34:39 SGT" name="initialSteps" finished-at="2022-03-30T17:34:41 SGT" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSteps -->
+        <test-method signature="validateNavBar()[pri:0, instance:FirstProject.navigationBarTest@36a5cabc]" started-at="2022-03-30T17:34:53 SGT" name="validateNavBar" finished-at="2022-03-30T17:34:53 SGT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavBar -->
+        <test-method is-config="true" signature="close()[pri:0, instance:FirstProject.navigationBarTest@36a5cabc]" started-at="2022-03-30T17:34:53 SGT" name="close" finished-at="2022-03-30T17:34:57 SGT" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- FirstProject.navigationBarTest -->
+      <class name="FirstProject.validateRediffFeaturesTest">
+        <test-method is-config="true" signature="initialSteps()[pri:0, instance:FirstProject.validateRediffFeaturesTest@432038ec]" started-at="2022-03-30T17:34:41 SGT" name="initialSteps" finished-at="2022-03-30T17:34:43 SGT" duration-ms="2237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSteps -->
+        <test-method signature="validateFeatures()[pri:0, instance:FirstProject.validateRediffFeaturesTest@432038ec]" started-at="2022-03-30T17:34:53 SGT" name="validateFeatures" finished-at="2022-03-30T17:34:53 SGT" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeatures -->
+        <test-method is-config="true" signature="close()[pri:0, instance:FirstProject.validateRediffFeaturesTest@432038ec]" started-at="2022-03-30T17:34:57 SGT" name="close" finished-at="2022-03-30T17:35:01 SGT" duration-ms="4165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- FirstProject.validateRediffFeaturesTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

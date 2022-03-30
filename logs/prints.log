@@ -1,3 +1,6 @@
-22:35:15.683 [main] INFO  resources.base - List of features of Rediff available for customers are:- 
-22:35:15.690 [main] INFO  resources.base - RediffmailMoneyBusiness EmailVideosShopping
-22:35:20.931 [main] INFO  resources.base - closing the window
+17:34:43.341 [main] INFO  resources.base - driver is initialised
+17:34:45.301 [main] INFO  resources.base - Navigated to Sign-in page
+17:34:53.339 [main] INFO  resources.base - navigation bar is displayed without any break of code and the contents are:-
+17:34:53.426 [main] INFO  resources.base - List of features of Rediff available for customers are:- 
+17:34:53.426 [main] INFO  resources.base - RediffmailMoneyBusiness EmailVideosShopping
+17:35:01.855 [main] INFO  resources.base - closing the window

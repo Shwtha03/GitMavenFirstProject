@@ -3,10 +3,20 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="FirstProject.AppTest"/>
+   
       <class name="FirstProject.validateRediffFeaturesTest"/>
-      <class name="FirstProject.HomePageTest"/>
+        </classes>
+        </test>
+        <test name="validating_home_page">
+        <classes>
+        <class name="FirstProject.HomePageTest"/>
+        </classes>
+        </test>
+        <test name="checking_for_navigation_bar">
+      <classes>
+        
       <class name="FirstProject.navigationBarTest"/>
+   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

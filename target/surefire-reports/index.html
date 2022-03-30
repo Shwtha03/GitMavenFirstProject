@@ -6,7 +6,7 @@
   <title>TestNG reports</title>
 
     <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,27 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="FirstProject.AppTest" class="method navigator-link" hash-for-method="shouldAnswerWithTrue">shouldAnswerWithTrue</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="FirstProject.HomePageTest" class="method navigator-link" hash-for-method="browserNavigation">browserNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FirstProject.HomePageTest" class="method navigator-link" hash-for-method="calldata(shweth, rao@1234, test data-1)">calldata(shweth, rao@1234, test data-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FirstProject.HomePageTest" class="method navigator-link" hash-for-method="calldata(pradeep, aby199@gmail.com, test data-2)">calldata(pradeep, aby199@gmail.com, test data-2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FirstProject.validateRediffFeaturesTest" class="method navigator-link" hash-for-method="validateFeatures">validateFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="FirstProject.navigationBarTest" class="method navigator-link" hash-for-method="validateNavBar">validateNavBar</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -120,14 +140,60 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">FirstProject.AppTest</span>
+              <span class="class-name">FirstProject.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="shouldAnswerWithTrue">
-                  </a> <!-- shouldAnswerWithTrue -->
-                  <span class="method-name">shouldAnswerWithTrue</span>
+                  <a name="browserNavigation">
+                  </a> <!-- browserNavigation -->
+                  <span class="method-name">browserNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="calldata(shweth, rao@1234, test data-1)">
+                  </a> <!-- calldata(shweth, rao@1234, test data-1) -->
+                  <span class="method-name">calldata</span>
+                  <span class="parameters">(shweth, rao@1234, test data-1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="calldata(pradeep, aby199@gmail.com, test data-2)">
+                  </a> <!-- calldata(pradeep, aby199@gmail.com, test data-2) -->
+                  <span class="method-name">calldata</span>
+                  <span class="parameters">(pradeep, aby199@gmail.com, test data-2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">FirstProject.navigationBarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNavBar">
+                  </a> <!-- validateNavBar -->
+                  <span class="method-name">validateNavBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">FirstProject.validateRediffFeaturesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFeatures">
+                  </a> <!-- validateFeatures -->
+                  <span class="method-name">validateFeatures</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -139,11 +205,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; junit=&quot;true&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
-  &lt;test junit=&quot;true&quot; thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;FirstProject.AppTest&quot;/&gt;
+      &lt;class name=&quot;FirstProject.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;FirstProject.navigationBarTest&quot;/&gt;
+      &lt;class name=&quot;FirstProject.validateRediffFeaturesTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -157,7 +225,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">Surefire test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,16 +251,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'shouldAnswerWithTrue')
-data.setCell(0, 2, 'FirstProject.AppTest')
-data.setCell(0, 3, 6);
+data.setCell(0, 1, 'calldata')
+data.setCell(0, 2, 'FirstProject.HomePageTest')
+data.setCell(0, 3, 6838);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'browserNavigation')
+data.setCell(1, 2, 'FirstProject.HomePageTest')
+data.setCell(1, 3, 1910);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'calldata')
+data.setCell(2, 2, 'FirstProject.HomePageTest')
+data.setCell(2, 3, 933);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateNavBar')
+data.setCell(3, 2, 'FirstProject.navigationBarTest')
+data.setCell(3, 3, 276);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateFeatures')
+data.setCell(4, 2, 'FirstProject.validateRediffFeaturesTest')
+data.setCell(4, 3, 64);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 ms</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -218,11 +302,75 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">FirstProject.AppTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">shouldAnswerWithTrue</span>
+              <div class="chronological-class-name">FirstProject.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialSteps</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FirstProject.navigationBarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialSteps</span>
+                <span class="method-start">2284 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FirstProject.validateRediffFeaturesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialSteps</span>
+                <span class="method-start">4169 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FirstProject.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">browserNavigation</span>
+                <span class="method-start">6447 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">calldata(shweth, rao@1234, test data-1)</span>
+                <span class="method-start">8367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">calldata(pradeep, aby199@gmail.com, test data-2)</span>
+                <span class="method-start">9301 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FirstProject.navigationBarTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateNavBar</span>
+                <span class="method-start">16141 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FirstProject.validateRediffFeaturesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateFeatures</span>
+                <span class="method-start">16418 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FirstProject.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">16482 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FirstProject.navigationBarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">16577 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">FirstProject.validateRediffFeaturesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">20746 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

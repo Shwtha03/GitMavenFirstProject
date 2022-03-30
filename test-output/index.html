@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -210,12 +210,19 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;FirstProject.AppTest&quot;/&gt;
       &lt;class name=&quot;FirstProject.validateRediffFeaturesTest&quot;/&gt;
-      &lt;class name=&quot;FirstProject.HomePageTest&quot;/&gt;
-      &lt;class name=&quot;FirstProject.navigationBarTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;validating_home_page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;FirstProject.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- validating_home_page --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;checking_for_navigation_bar&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;FirstProject.navigationBarTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- checking_for_navigation_bar --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -227,7 +234,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">validating_home_page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">checking_for_navigation_bar (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -255,30 +268,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'calldata')
+data.setCell(0, 1, 'browserNavigation')
 data.setCell(0, 2, 'FirstProject.HomePageTest')
-data.setCell(0, 3, 3318);
+data.setCell(0, 3, 4051);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'browserNavigation')
+data.setCell(1, 1, 'calldata')
 data.setCell(1, 2, 'FirstProject.HomePageTest')
-data.setCell(1, 3, 2552);
+data.setCell(1, 3, 803);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'calldata')
 data.setCell(2, 2, 'FirstProject.HomePageTest')
-data.setCell(2, 3, 1596);
+data.setCell(2, 3, 743);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateNavBar')
 data.setCell(3, 2, 'FirstProject.navigationBarTest')
-data.setCell(3, 3, 313);
+data.setCell(3, 3, 138);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'validateFeatures')
 data.setCell(4, 2, 'FirstProject.validateRediffFeaturesTest')
-data.setCell(4, 3, 51);
+data.setCell(4, 3, 45);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -304,71 +317,56 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">FirstProject.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">FirstProject.validateRediffFeaturesTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialSteps</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">FirstProject.navigationBarTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initialSteps</span>
-                <span class="method-start">3199 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">FirstProject.validateRediffFeaturesTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initialSteps</span>
-                <span class="method-start">5417 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateFeatures</span>
-                <span class="method-start">9097 ms</span>
+                <span class="method-start">3609 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">3660 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">FirstProject.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialSteps</span>
+                <span class="method-start">3799 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">browserNavigation</span>
-                <span class="method-start">9155 ms</span>
+                <span class="method-start">5564 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">calldata(shweth, rao@1234, test data-1)</span>
-                <span class="method-start">11713 ms</span>
+                <span class="method-start">9623 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">calldata(pradeep, aby199@gmail.com, test data-2)</span>
-                <span class="method-start">13312 ms</span>
+                <span class="method-start">10373 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">11178 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">FirstProject.navigationBarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialSteps</span>
+                <span class="method-start">11267 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateNavBar</span>
-                <span class="method-start">16633 ms</span>
+                <span class="method-start">13078 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">FirstProject.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">16947 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">FirstProject.navigationBarTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">close</span>
-                <span class="method-start">17045 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">FirstProject.validateRediffFeaturesTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">close</span>
-                <span class="method-start">17185 ms</span>
+                <span class="method-start">13218 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
